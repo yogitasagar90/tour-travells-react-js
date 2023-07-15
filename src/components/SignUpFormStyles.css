@@ -1,0 +1,48 @@
+.from-containerr {
+    background-color: orangered;
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+    margin-top: 120px;
+}
+
+.from-containerr h1 {
+    color: white;
+}
+
+.from-containerr form {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+
+.from-containerr input {
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: .3rem;
+    border: 1px solid #2a2a2a;
+    font-size: 20px;
+}
+
+.from-containerr button {
+    display: inline;
+    background-color: yellow;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+@media screen and (max-width:850px) {
+    .from-containerr {
+        margin: 4rem 2rem;
+    }
+
+    .from-containerr form {
+        padding-top: 2rem;
+        width: 90%;
+    }
+}
